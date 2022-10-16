@@ -19,7 +19,7 @@ public class GameManager : MonoBehaviour
 
     //Private variables
     private GameObject bonusItem;
-    private int totalPellets = 0;
+    private int totalPellets = 128;
     private int score = 0;
     private int collectedPellets = 0;
     private AudioSource aSrc;
