@@ -1,21 +1,20 @@
 fileFormatVersion: 2
-guid: a85e798f42a8769488079430d0b76204
+guid: a0f6ff723e0ac914f9274e5ae29a277a
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable:
   - first:
-      74: -2041068614547324195
-    second: Sphere|roll_B
+      74: -6333163131637793548
+    second: Spin
   - first:
-      74: -6336040052369720441
-    second: Sphere|roll_F
+      74: -2584568890175430902
+    second: PoolCue|Spin
+  externalObjects:
   - first:
-      74: -8886148581924803938
-    second: 'Sphere|Roll_L '
-  - first:
-      74: 4731632359953947448
-    second: Sphere|Roll_R
-  externalObjects: {}
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 8ebee9835f3b5ff46b3df11e547dc5d4, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
