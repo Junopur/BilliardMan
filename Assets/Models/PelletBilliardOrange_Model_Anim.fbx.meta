@@ -1,21 +1,17 @@
 fileFormatVersion: 2
-guid: a85e798f42a8769488079430d0b76204
+guid: 36e08f55f6019874c960260e35707627
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable:
   - first:
-      74: -2041068614547324195
-    second: Sphere|roll_B
+      74: 3982517599449649964
+    second: Armature|Spin
+  externalObjects:
   - first:
-      74: -6336040052369720441
-    second: Sphere|roll_F
-  - first:
-      74: -8886148581924803938
-    second: 'Sphere|Roll_L '
-  - first:
-      74: 4731632359953947448
-    second: Sphere|Roll_R
-  externalObjects: {}
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 1984145a1f4711c4d8d92fbad079f2c2, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
