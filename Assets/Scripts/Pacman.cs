@@ -90,6 +90,9 @@ public class Pacman : MonoBehaviour
     /// </summary>
     void Update()
     {
+
+        
+
         //Respawn timer
         if(respawnTimer > -1)
         {

@@ -107,7 +107,7 @@ NavMeshSettings:
     serializedVersion: 2
     agentTypeID: 0
     agentRadius: 0.5
-    agentHeight: 1
+    agentHeight: 2.5
     agentSlope: 0
     agentClimb: 0
     ledgeDropHeight: 0
@@ -232,6 +232,7 @@ GameObject:
   m_Component:
   - component: {fileID: 14071081}
   - component: {fileID: 14071082}
+  - component: {fileID: 14071083}
   m_Layer: 0
   m_Name: Billiard Orange (38)
   m_TagString: Pellet
@@ -263,12 +264,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 14071080}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &14071083
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14071080}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &21710682
 GameObject:
   m_ObjectHideFlags: 0
@@ -386,6 +400,7 @@ GameObject:
   m_Component:
   - component: {fileID: 31361241}
   - component: {fileID: 31361242}
+  - component: {fileID: 31361243}
   m_Layer: 0
   m_Name: Billiard Orange (52)
   m_TagString: Pellet
@@ -417,12 +432,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 31361240}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &31361243
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 31361240}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &35276205
 GameObject:
   m_ObjectHideFlags: 0
@@ -525,6 +553,7 @@ GameObject:
   m_Component:
   - component: {fileID: 48381729}
   - component: {fileID: 48381730}
+  - component: {fileID: 48381731}
   m_Layer: 0
   m_Name: Billiard Orange (49)
   m_TagString: Pellet
@@ -556,12 +585,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 48381728}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &48381731
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 48381728}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &49661431
 GameObject:
   m_ObjectHideFlags: 0
@@ -664,6 +706,7 @@ GameObject:
   m_Component:
   - component: {fileID: 61911030}
   - component: {fileID: 61911031}
+  - component: {fileID: 61911032}
   m_Layer: 0
   m_Name: Billiard Orange (55)
   m_TagString: Pellet
@@ -695,12 +738,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 61911029}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &61911032
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 61911029}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &67107826
 GameObject:
   m_ObjectHideFlags: 0
@@ -917,6 +973,7 @@ GameObject:
   m_Component:
   - component: {fileID: 84421473}
   - component: {fileID: 84421474}
+  - component: {fileID: 84421475}
   m_Layer: 0
   m_Name: Billiard Orange (34)
   m_TagString: Pellet
@@ -948,12 +1005,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 84421472}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &84421475
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 84421472}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &85431308
 GameObject:
   m_ObjectHideFlags: 0
@@ -964,6 +1034,7 @@ GameObject:
   m_Component:
   - component: {fileID: 85431309}
   - component: {fileID: 85431310}
+  - component: {fileID: 85431311}
   m_Layer: 0
   m_Name: Billiard Red (56)
   m_TagString: Pellet
@@ -995,12 +1066,30 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 85431308}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &85431311
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 85431308}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
+--- !u!4 &90375174 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8cc0cb1274741ca4cbc658a6235ee1b5, type: 3}
+  m_PrefabInstance: {fileID: 425326620}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &91316492
 GameObject:
   m_ObjectHideFlags: 0
@@ -1110,6 +1199,7 @@ GameObject:
   m_Component:
   - component: {fileID: 93131992}
   - component: {fileID: 93131993}
+  - component: {fileID: 93131994}
   m_Layer: 0
   m_Name: Billiard Red (45)
   m_TagString: Pellet
@@ -1141,12 +1231,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 93131991}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &93131994
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93131991}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &99968516
 GameObject:
   m_ObjectHideFlags: 0
@@ -1157,6 +1260,7 @@ GameObject:
   m_Component:
   - component: {fileID: 99968517}
   - component: {fileID: 99968518}
+  - component: {fileID: 99968519}
   m_Layer: 0
   m_Name: Billiard Orange (56)
   m_TagString: Pellet
@@ -1188,12 +1292,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 99968516}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &99968519
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 99968516}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &101682799
 GameObject:
   m_ObjectHideFlags: 0
@@ -1846,6 +1963,7 @@ GameObject:
   m_Component:
   - component: {fileID: 202172192}
   - component: {fileID: 202172193}
+  - component: {fileID: 202172194}
   m_Layer: 0
   m_Name: Billiard Orange (36)
   m_TagString: Pellet
@@ -1877,12 +1995,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 202172191}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &202172194
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 202172191}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &213009346
 GameObject:
   m_ObjectHideFlags: 0
@@ -1893,6 +2024,7 @@ GameObject:
   m_Component:
   - component: {fileID: 213009347}
   - component: {fileID: 213009348}
+  - component: {fileID: 213009349}
   m_Layer: 0
   m_Name: Billiard Orange (37)
   m_TagString: Pellet
@@ -1924,12 +2056,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 213009346}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &213009349
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 213009346}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &220542296
 GameObject:
   m_ObjectHideFlags: 0
@@ -2283,6 +2428,7 @@ GameObject:
   m_Component:
   - component: {fileID: 254466860}
   - component: {fileID: 254466861}
+  - component: {fileID: 254466862}
   m_Layer: 0
   m_Name: Billiard Red (65)
   m_TagString: Pellet
@@ -2314,12 +2460,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 254466859}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &254466862
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 254466859}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &257253551
 GameObject:
   m_ObjectHideFlags: 0
@@ -2360,6 +2519,7 @@ GameObject:
   m_Component:
   - component: {fileID: 257409531}
   - component: {fileID: 257409532}
+  - component: {fileID: 257409533}
   m_Layer: 0
   m_Name: Billiard Red (33)
   m_TagString: Pellet
@@ -2391,12 +2551,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 257409530}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &257409533
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 257409530}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &267549834
 GameObject:
   m_ObjectHideFlags: 0
@@ -2407,6 +2580,7 @@ GameObject:
   m_Component:
   - component: {fileID: 267549835}
   - component: {fileID: 267549836}
+  - component: {fileID: 267549837}
   m_Layer: 0
   m_Name: Billiard Red (34)
   m_TagString: Pellet
@@ -2438,12 +2612,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 267549834}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &267549837
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 267549834}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &284420720
 GameObject:
   m_ObjectHideFlags: 0
@@ -2869,12 +3056,13 @@ GameObject:
   - component: {fileID: 338282923}
   - component: {fileID: 338282922}
   - component: {fileID: 338282921}
+  - component: {fileID: 338282925}
   m_Layer: 0
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967263
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!64 &338282921
 MeshCollider:
@@ -2953,6 +3141,19 @@ Transform:
   m_Father: {fileID: 979444459}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &338282925
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 338282920}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 9.999999, y: 2.220446e-16, z: 10}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &339311764
 GameObject:
   m_ObjectHideFlags: 0
@@ -3215,6 +3416,7 @@ GameObject:
   m_Component:
   - component: {fileID: 365279292}
   - component: {fileID: 365279293}
+  - component: {fileID: 365279294}
   m_Layer: 0
   m_Name: Billiard Red (63)
   m_TagString: Pellet
@@ -3246,12 +3448,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 365279291}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &365279294
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 365279291}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &367315812
 GameObject:
   m_ObjectHideFlags: 0
@@ -3308,6 +3523,7 @@ GameObject:
   m_Component:
   - component: {fileID: 373035157}
   - component: {fileID: 373035158}
+  - component: {fileID: 373035159}
   m_Layer: 0
   m_Name: Billiard Red (62)
   m_TagString: Pellet
@@ -3339,12 +3555,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 373035156}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &373035159
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 373035156}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &384488276
 GameObject:
   m_ObjectHideFlags: 0
@@ -3449,6 +3678,7 @@ GameObject:
   m_Component:
   - component: {fileID: 386878257}
   - component: {fileID: 386878258}
+  - component: {fileID: 386878259}
   m_Layer: 0
   m_Name: Billiard Red (55)
   m_TagString: Pellet
@@ -3480,12 +3710,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 386878256}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &386878259
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 386878256}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &409618424
 GameObject:
   m_ObjectHideFlags: 0
@@ -3516,6 +3759,75 @@ Transform:
   m_Father: {fileID: 2106228981}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &425326620
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 543450652233640452}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 8cc0cb1274741ca4cbc658a6235ee1b5, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8cc0cb1274741ca4cbc658a6235ee1b5, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8cc0cb1274741ca4cbc658a6235ee1b5, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8cc0cb1274741ca4cbc658a6235ee1b5, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8cc0cb1274741ca4cbc658a6235ee1b5, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8cc0cb1274741ca4cbc658a6235ee1b5, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8cc0cb1274741ca4cbc658a6235ee1b5, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8cc0cb1274741ca4cbc658a6235ee1b5, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8cc0cb1274741ca4cbc658a6235ee1b5, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8cc0cb1274741ca4cbc658a6235ee1b5, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8cc0cb1274741ca4cbc658a6235ee1b5, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8cc0cb1274741ca4cbc658a6235ee1b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8cc0cb1274741ca4cbc658a6235ee1b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 8cc0cb1274741ca4cbc658a6235ee1b5, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8cc0cb1274741ca4cbc658a6235ee1b5, type: 3}
+      propertyPath: m_Name
+      value: 1BallGhost_Model_Anim 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8cc0cb1274741ca4cbc658a6235ee1b5, type: 3}
 --- !u!1 &428109463
 GameObject:
   m_ObjectHideFlags: 0
@@ -3533,7 +3845,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &428109464
 Transform:
@@ -4056,6 +4368,7 @@ GameObject:
   m_Component:
   - component: {fileID: 464929316}
   - component: {fileID: 464929317}
+  - component: {fileID: 464929318}
   m_Layer: 0
   m_Name: Billiard Red (59)
   m_TagString: Pellet
@@ -4087,12 +4400,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 464929315}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &464929318
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 464929315}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &473409453
 GameObject:
   m_ObjectHideFlags: 0
@@ -4171,7 +4497,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &504697173
 Transform:
@@ -4289,6 +4615,7 @@ GameObject:
   m_Component:
   - component: {fileID: 509489471}
   - component: {fileID: 509489472}
+  - component: {fileID: 509489473}
   m_Layer: 0
   m_Name: Billiard Red (35)
   m_TagString: Pellet
@@ -4320,12 +4647,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 509489470}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &509489473
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 509489470}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &512302697
 GameObject:
   m_ObjectHideFlags: 0
@@ -4425,6 +4765,75 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!1001 &513212602
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 543450652628282697}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 24366428364ef4145b96d8be338caea1, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24366428364ef4145b96d8be338caea1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24366428364ef4145b96d8be338caea1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24366428364ef4145b96d8be338caea1, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24366428364ef4145b96d8be338caea1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24366428364ef4145b96d8be338caea1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24366428364ef4145b96d8be338caea1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24366428364ef4145b96d8be338caea1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24366428364ef4145b96d8be338caea1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24366428364ef4145b96d8be338caea1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24366428364ef4145b96d8be338caea1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24366428364ef4145b96d8be338caea1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24366428364ef4145b96d8be338caea1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 24366428364ef4145b96d8be338caea1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 24366428364ef4145b96d8be338caea1, type: 3}
+      propertyPath: m_Name
+      value: 4BallGhost_Model_Anim
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 24366428364ef4145b96d8be338caea1, type: 3}
 --- !u!1 &514619510
 GameObject:
   m_ObjectHideFlags: 0
@@ -4466,6 +4875,7 @@ GameObject:
   m_Component:
   - component: {fileID: 515012841}
   - component: {fileID: 515012842}
+  - component: {fileID: 515012843}
   m_Layer: 0
   m_Name: Billiard Orange (58)
   m_TagString: Pellet
@@ -4497,12 +4907,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 515012840}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &515012843
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 515012840}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &519197191
 GameObject:
   m_ObjectHideFlags: 0
@@ -4995,6 +5418,7 @@ GameObject:
   m_Component:
   - component: {fileID: 574198150}
   - component: {fileID: 574198151}
+  - component: {fileID: 574198152}
   m_Layer: 0
   m_Name: Billiard Red (64)
   m_TagString: Pellet
@@ -5026,12 +5450,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 574198149}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &574198152
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 574198149}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &577177958
 GameObject:
   m_ObjectHideFlags: 0
@@ -5103,6 +5540,7 @@ GameObject:
   m_Component:
   - component: {fileID: 592941652}
   - component: {fileID: 592941653}
+  - component: {fileID: 592941654}
   m_Layer: 0
   m_Name: Billiard Red (50)
   m_TagString: Pellet
@@ -5134,12 +5572,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 592941651}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &592941654
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 592941651}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &597395898
 GameObject:
   m_ObjectHideFlags: 0
@@ -5150,6 +5601,7 @@ GameObject:
   m_Component:
   - component: {fileID: 597395899}
   - component: {fileID: 597395900}
+  - component: {fileID: 597395901}
   m_Layer: 0
   m_Name: Billiard Orange (45)
   m_TagString: Pellet
@@ -5181,12 +5633,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 597395898}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &597395901
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 597395898}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &600719387
 GameObject:
   m_ObjectHideFlags: 0
@@ -5814,6 +6279,7 @@ GameObject:
   m_Component:
   - component: {fileID: 644256040}
   - component: {fileID: 644256041}
+  - component: {fileID: 644256042}
   m_Layer: 0
   m_Name: Billiard Orange (61)
   m_TagString: Pellet
@@ -5845,12 +6311,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 644256039}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &644256042
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 644256039}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &654755040
 GameObject:
   m_ObjectHideFlags: 0
@@ -6317,6 +6796,7 @@ GameObject:
   m_Component:
   - component: {fileID: 702290761}
   - component: {fileID: 702290762}
+  - component: {fileID: 702290763}
   m_Layer: 0
   m_Name: Billiard Red (42)
   m_TagString: Pellet
@@ -6348,12 +6828,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 702290760}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &702290763
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 702290760}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -6445,7 +6938,7 @@ Transform:
   m_LocalScale: {x: 1.3277, y: 1.3277, z: 1.3277}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 84.05, y: 0, z: 0}
 --- !u!195 &706345924
 NavMeshAgent:
@@ -6461,7 +6954,7 @@ NavMeshAgent:
   m_Acceleration: 8
   avoidancePriority: 3
   m_AngularSpeed: 120
-  m_StoppingDistance: 0
+  m_StoppingDistance: 1.5
   m_AutoTraverseOffMeshLink: 0
   m_AutoBraking: 1
   m_AutoRepath: 1
@@ -6840,26 +7333,10 @@ MonoBehaviour:
   speed: 4
   pacmanSpawn: {fileID: 1493569623}
   lifeIcons:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1778397290}
+  - {fileID: 1452950066}
+  - {fileID: 1504702556}
   deathClip: {fileID: 8300000, guid: 328958159f2bdfa4abe9d944c7c0c1a2, type: 3}
---- !u!54 &722186566
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919132148467662609}
-  serializedVersion: 2
-  m_Mass: 3
-  m_Drag: 2
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &723026442
 GameObject:
   m_ObjectHideFlags: 0
@@ -6900,6 +7377,7 @@ GameObject:
   m_Component:
   - component: {fileID: 726255152}
   - component: {fileID: 726255153}
+  - component: {fileID: 726255154}
   m_Layer: 0
   m_Name: Billiard Red (52)
   m_TagString: Pellet
@@ -6931,12 +7409,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 726255151}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &726255154
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 726255151}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &733617466
 GameObject:
   m_ObjectHideFlags: 0
@@ -7039,6 +7530,7 @@ GameObject:
   m_Component:
   - component: {fileID: 737506747}
   - component: {fileID: 737506748}
+  - component: {fileID: 737506749}
   m_Layer: 0
   m_Name: Billiard Red (46)
   m_TagString: Pellet
@@ -7070,12 +7562,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 737506746}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &737506749
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 737506746}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &738894817
 GameObject:
   m_ObjectHideFlags: 0
@@ -7116,6 +7621,7 @@ GameObject:
   m_Component:
   - component: {fileID: 741149000}
   - component: {fileID: 741149001}
+  - component: {fileID: 741149002}
   m_Layer: 0
   m_Name: Billiard Orange (67)
   m_TagString: Pellet
@@ -7147,12 +7653,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 741148999}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &741149002
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 741148999}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &743720712
 GameObject:
   m_ObjectHideFlags: 0
@@ -7354,6 +7873,7 @@ GameObject:
   m_Component:
   - component: {fileID: 763923107}
   - component: {fileID: 763923108}
+  - component: {fileID: 763923109}
   m_Layer: 0
   m_Name: Billiard Red (41)
   m_TagString: Pellet
@@ -7385,12 +7905,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 763923106}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &763923109
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 763923106}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &765958557
 GameObject:
   m_ObjectHideFlags: 0
@@ -7530,6 +8063,7 @@ GameObject:
   m_Component:
   - component: {fileID: 783173744}
   - component: {fileID: 783173745}
+  - component: {fileID: 783173746}
   m_Layer: 0
   m_Name: Billiard Orange (47)
   m_TagString: Pellet
@@ -7561,12 +8095,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 783173743}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &783173746
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 783173743}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &783361664
 GameObject:
   m_ObjectHideFlags: 0
@@ -7793,6 +8340,7 @@ GameObject:
   m_Component:
   - component: {fileID: 816188303}
   - component: {fileID: 816188304}
+  - component: {fileID: 816188305}
   m_Layer: 0
   m_Name: Billiard Orange (50)
   m_TagString: Pellet
@@ -7824,12 +8372,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 816188302}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &816188305
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 816188302}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!195 &816208170
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -7844,7 +8405,7 @@ NavMeshAgent:
   m_Acceleration: 8
   avoidancePriority: 4
   m_AngularSpeed: 120
-  m_StoppingDistance: 0
+  m_StoppingDistance: 1.5
   m_AutoTraverseOffMeshLink: 0
   m_AutoBraking: 1
   m_AutoRepath: 1
@@ -8254,6 +8815,7 @@ GameObject:
   m_Component:
   - component: {fileID: 852025361}
   - component: {fileID: 852025362}
+  - component: {fileID: 852025363}
   m_Layer: 0
   m_Name: Billiard Red (38)
   m_TagString: Pellet
@@ -8285,12 +8847,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 852025360}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &852025363
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 852025360}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &854166533
 GameObject:
   m_ObjectHideFlags: 0
@@ -8369,7 +8944,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &871145050
 Transform:
@@ -8949,6 +9524,7 @@ GameObject:
   m_Component:
   - component: {fileID: 938887273}
   - component: {fileID: 938887274}
+  - component: {fileID: 938887275}
   m_Layer: 0
   m_Name: Billiard Orange (66)
   m_TagString: Pellet
@@ -8980,12 +9556,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 938887272}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &938887275
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938887272}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &939063533
 GameObject:
   m_ObjectHideFlags: 0
@@ -8996,6 +9585,7 @@ GameObject:
   m_Component:
   - component: {fileID: 939063534}
   - component: {fileID: 939063535}
+  - component: {fileID: 939063536}
   m_Layer: 0
   m_Name: Billiard Orange (53)
   m_TagString: Pellet
@@ -9027,12 +9617,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 939063533}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &939063536
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 939063533}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &941985159
 GameObject:
   m_ObjectHideFlags: 0
@@ -9074,6 +9677,7 @@ GameObject:
   m_Component:
   - component: {fileID: 942219596}
   - component: {fileID: 942219597}
+  - component: {fileID: 942219598}
   m_Layer: 0
   m_Name: Billiard Red (32)
   m_TagString: Pellet
@@ -9105,12 +9709,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 942219595}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &942219598
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 942219595}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &947917258
 GameObject:
   m_ObjectHideFlags: 0
@@ -9246,6 +9863,7 @@ GameObject:
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
   - component: {fileID: 963194229}
+  - component: {fileID: 963194230}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -9311,13 +9929,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 53.04, z: 0}
+  m_LocalRotation: {x: 0.29988006, y: -0, z: -0, w: 0.9539769}
+  m_LocalPosition: {x: -0.65, y: 7.81, z: -22.74}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 90, y: -180, z: -180}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 145.099, y: -180, z: -180}
 --- !u!114 &963194229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9351,6 +9969,20 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
+--- !u!114 &963194230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8eb4821c5a119f147a58d4a59376e4a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
+  offset: {x: 0, y: 10, z: 0}
 --- !u!1 &963885902
 GameObject:
   m_ObjectHideFlags: 0
@@ -9783,6 +10415,7 @@ GameObject:
   m_Component:
   - component: {fileID: 985472800}
   - component: {fileID: 985472801}
+  - component: {fileID: 985472802}
   m_Layer: 0
   m_Name: Billiard Red (57)
   m_TagString: Pellet
@@ -9814,12 +10447,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 985472799}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &985472802
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 985472799}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &989530711
 GameObject:
   m_ObjectHideFlags: 0
@@ -9867,7 +10513,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &991765279
 Transform:
@@ -10215,6 +10861,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1005492330}
   - component: {fileID: 1005492331}
+  - component: {fileID: 1005492332}
   m_Layer: 0
   m_Name: Billiard Red (37)
   m_TagString: Pellet
@@ -10246,12 +10893,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1005492329}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &1005492332
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1005492329}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &1005524169
 GameObject:
   m_ObjectHideFlags: 0
@@ -10323,6 +10983,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1017733784}
   - component: {fileID: 1017733785}
+  - component: {fileID: 1017733786}
   m_Layer: 0
   m_Name: Billiard Orange (71)
   m_TagString: Pellet
@@ -10354,12 +11015,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1017733783}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &1017733786
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1017733783}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &1021449430
 GameObject:
   m_ObjectHideFlags: 0
@@ -10416,6 +11090,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1023763063}
   - component: {fileID: 1023763064}
+  - component: {fileID: 1023763065}
   m_Layer: 0
   m_Name: Billiard Orange (69)
   m_TagString: Pellet
@@ -10447,12 +11122,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1023763062}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &1023763065
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1023763062}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &1026226742
 GameObject:
   m_ObjectHideFlags: 0
@@ -10554,6 +11242,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1044458065}
   - component: {fileID: 1044458066}
+  - component: {fileID: 1044458067}
   m_Layer: 0
   m_Name: Billiard Red (40)
   m_TagString: Pellet
@@ -10585,12 +11274,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1044458064}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &1044458067
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1044458064}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &1051058500
 GameObject:
   m_ObjectHideFlags: 0
@@ -10653,6 +11355,75 @@ Transform:
   m_Father: {fileID: 1961105067}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1063360947
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 543450652422211910}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: a85e798f42a8769488079430d0b76204, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a85e798f42a8769488079430d0b76204, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a85e798f42a8769488079430d0b76204, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a85e798f42a8769488079430d0b76204, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a85e798f42a8769488079430d0b76204, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a85e798f42a8769488079430d0b76204, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a85e798f42a8769488079430d0b76204, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a85e798f42a8769488079430d0b76204, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a85e798f42a8769488079430d0b76204, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a85e798f42a8769488079430d0b76204, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a85e798f42a8769488079430d0b76204, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a85e798f42a8769488079430d0b76204, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a85e798f42a8769488079430d0b76204, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: a85e798f42a8769488079430d0b76204, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a85e798f42a8769488079430d0b76204, type: 3}
+      propertyPath: m_Name
+      value: 3BallGhost_Model_Anim
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a85e798f42a8769488079430d0b76204, type: 3}
 --- !u!1 &1071913478
 GameObject:
   m_ObjectHideFlags: 0
@@ -10762,6 +11533,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1073253965}
   - component: {fileID: 1073253966}
+  - component: {fileID: 1073253967}
   m_Layer: 0
   m_Name: Billiard Red (54)
   m_TagString: Pellet
@@ -10793,12 +11565,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1073253964}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &1073253967
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073253964}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &1073275024
 GameObject:
   m_ObjectHideFlags: 0
@@ -11114,6 +11899,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1096560831}
   - component: {fileID: 1096560832}
+  - component: {fileID: 1096560833}
   m_Layer: 0
   m_Name: Billiard Orange (40)
   m_TagString: Pellet
@@ -11145,12 +11931,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1096560830}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &1096560833
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1096560830}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &1100538317
 GameObject:
   m_ObjectHideFlags: 0
@@ -11161,6 +11960,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1100538318}
   - component: {fileID: 1100538319}
+  - component: {fileID: 1100538320}
   m_Layer: 0
   m_Name: Billiard Orange (72)
   m_TagString: Pellet
@@ -11192,12 +11992,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1100538317}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &1100538320
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1100538317}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &1104973121
 GameObject:
   m_ObjectHideFlags: 0
@@ -11285,6 +12098,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1107798731}
   - component: {fileID: 1107798732}
+  - component: {fileID: 1107798733}
   m_Layer: 0
   m_Name: Billiard Orange (48)
   m_TagString: Pellet
@@ -11316,12 +12130,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1107798730}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &1107798733
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107798730}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &1108188827
 GameObject:
   m_ObjectHideFlags: 0
@@ -11332,6 +12159,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1108188828}
   - component: {fileID: 1108188829}
+  - component: {fileID: 1108188830}
   m_Layer: 0
   m_Name: Billiard Orange (70)
   m_TagString: Pellet
@@ -11363,12 +12191,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1108188827}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &1108188830
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1108188827}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &1112331158
 GameObject:
   m_ObjectHideFlags: 0
@@ -11707,6 +12548,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1157331495}
   - component: {fileID: 1157331496}
+  - component: {fileID: 1157331497}
   m_Layer: 0
   m_Name: Billiard Red (47)
   m_TagString: Pellet
@@ -11738,12 +12580,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1157331494}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &1157331497
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1157331494}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &1165569899
 GameObject:
   m_ObjectHideFlags: 0
@@ -11942,6 +12797,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1185362818}
   - component: {fileID: 1185362819}
+  - component: {fileID: 1185362820}
   m_Layer: 0
   m_Name: Billiard Red (36)
   m_TagString: Pellet
@@ -11973,12 +12829,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1185362817}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &1185362820
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1185362817}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &1186648668
 GameObject:
   m_ObjectHideFlags: 0
@@ -11989,6 +12858,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1186648669}
   - component: {fileID: 1186648670}
+  - component: {fileID: 1186648671}
   m_Layer: 0
   m_Name: Billiard Red (49)
   m_TagString: Pellet
@@ -12020,12 +12890,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1186648668}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &1186648671
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1186648668}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &1186650379
 GameObject:
   m_ObjectHideFlags: 0
@@ -12139,7 +13022,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1189125642
 Transform:
@@ -12362,6 +13245,75 @@ Transform:
   m_Father: {fileID: 54696409}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1219681081
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 543450652369229536}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 0a96824277fc61d47a011fd51bbc1fdb, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0a96824277fc61d47a011fd51bbc1fdb, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0a96824277fc61d47a011fd51bbc1fdb, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0a96824277fc61d47a011fd51bbc1fdb, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0a96824277fc61d47a011fd51bbc1fdb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0a96824277fc61d47a011fd51bbc1fdb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0a96824277fc61d47a011fd51bbc1fdb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0a96824277fc61d47a011fd51bbc1fdb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0a96824277fc61d47a011fd51bbc1fdb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0a96824277fc61d47a011fd51bbc1fdb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0a96824277fc61d47a011fd51bbc1fdb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0a96824277fc61d47a011fd51bbc1fdb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0a96824277fc61d47a011fd51bbc1fdb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 0a96824277fc61d47a011fd51bbc1fdb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 0a96824277fc61d47a011fd51bbc1fdb, type: 3}
+      propertyPath: m_Name
+      value: 2BallGhost_Model_Anim
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0a96824277fc61d47a011fd51bbc1fdb, type: 3}
 --- !u!1 &1220750343
 GameObject:
   m_ObjectHideFlags: 0
@@ -12402,6 +13354,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1223672293}
   - component: {fileID: 1223672294}
+  - component: {fileID: 1223672295}
   m_Layer: 0
   m_Name: Billiard Orange (42)
   m_TagString: Pellet
@@ -12433,12 +13386,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1223672292}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &1223672295
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1223672292}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &1226957876
 GameObject:
   m_ObjectHideFlags: 0
@@ -12480,6 +13446,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1229777477}
   - component: {fileID: 1229777478}
+  - component: {fileID: 1229777479}
   m_Layer: 0
   m_Name: Billiard Red (61)
   m_TagString: Pellet
@@ -12511,12 +13478,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1229777476}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &1229777479
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1229777476}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &1233101986
 GameObject:
   m_ObjectHideFlags: 0
@@ -12603,6 +13583,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1245511870}
   - component: {fileID: 1245511871}
+  - component: {fileID: 1245511872}
   m_Layer: 0
   m_Name: Billiard Red (51)
   m_TagString: Pellet
@@ -12634,12 +13615,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1245511869}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &1245511872
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1245511869}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &1252840630
 GameObject:
   m_ObjectHideFlags: 0
@@ -12952,6 +13946,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1267616144}
   - component: {fileID: 1267616145}
+  - component: {fileID: 1267616146}
   m_Layer: 0
   m_Name: Billiard Orange (65)
   m_TagString: Pellet
@@ -12983,12 +13978,30 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1267616143}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &1267616146
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267616143}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
+--- !u!4 &1269012449 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a85e798f42a8769488079430d0b76204, type: 3}
+  m_PrefabInstance: {fileID: 1063360947}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1271074106
 GameObject:
   m_ObjectHideFlags: 0
@@ -13265,6 +14278,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1323544262}
   - component: {fileID: 1323544263}
+  - component: {fileID: 1323544264}
   m_Layer: 0
   m_Name: Billiard Orange (31)
   m_TagString: Pellet
@@ -13296,12 +14310,30 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1323544261}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &1323544264
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1323544261}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
+--- !u!4 &1329559761 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 24366428364ef4145b96d8be338caea1, type: 3}
+  m_PrefabInstance: {fileID: 513212602}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1329566454
 GameObject:
   m_ObjectHideFlags: 0
@@ -13465,6 +14497,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1338057259}
   - component: {fileID: 1338057260}
+  - component: {fileID: 1338057261}
   m_Layer: 0
   m_Name: Billiard Orange (63)
   m_TagString: Pellet
@@ -13496,12 +14529,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1338057258}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &1338057261
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1338057258}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &1341119066
 GameObject:
   m_ObjectHideFlags: 0
@@ -13558,6 +14604,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1344738112}
   - component: {fileID: 1344738113}
+  - component: {fileID: 1344738114}
   m_Layer: 0
   m_Name: Billiard Orange (33)
   m_TagString: Pellet
@@ -13589,12 +14636,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1344738111}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &1344738114
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1344738111}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &1345320791
 GameObject:
   m_ObjectHideFlags: 0
@@ -13635,6 +14695,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1358217549}
   - component: {fileID: 1358217550}
+  - component: {fileID: 1358217551}
   m_Layer: 0
   m_Name: Billiard Red (43)
   m_TagString: Pellet
@@ -13666,12 +14727,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1358217548}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &1358217551
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1358217548}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &1362371198
 GameObject:
   m_ObjectHideFlags: 0
@@ -13827,6 +14901,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1382013525}
   - component: {fileID: 1382013526}
+  - component: {fileID: 1382013527}
   m_Layer: 0
   m_Name: Billiard Orange (68)
   m_TagString: Pellet
@@ -13858,12 +14933,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1382013524}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &1382013527
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1382013524}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &1383858876
 GameObject:
   m_ObjectHideFlags: 0
@@ -13984,6 +15072,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1394452446}
   - component: {fileID: 1394452447}
+  - component: {fileID: 1394452448}
   m_Layer: 0
   m_Name: Billiard Orange (62)
   m_TagString: Pellet
@@ -14015,12 +15104,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1394452445}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &1394452448
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1394452445}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &1394563795
 GameObject:
   m_ObjectHideFlags: 0
@@ -14336,6 +15438,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1420921523}
   - component: {fileID: 1420921524}
+  - component: {fileID: 1420921525}
   m_Layer: 0
   m_Name: Billiard Orange (41)
   m_TagString: Pellet
@@ -14367,12 +15470,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1420921522}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &1420921525
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1420921522}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &1422150287
 GameObject:
   m_ObjectHideFlags: 0
@@ -14558,6 +15674,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1430852078}
   - component: {fileID: 1430852079}
+  - component: {fileID: 1430852080}
   m_Layer: 0
   m_Name: Billiard Red (44)
   m_TagString: Pellet
@@ -14589,12 +15706,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1430852077}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &1430852080
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1430852077}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &1434688308
 GameObject:
   m_ObjectHideFlags: 0
@@ -14750,6 +15880,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1449808078}
   - component: {fileID: 1449808079}
+  - component: {fileID: 1449808080}
   m_Layer: 0
   m_Name: Billiard Orange (46)
   m_TagString: Pellet
@@ -14781,12 +15912,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1449808077}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &1449808080
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1449808077}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &1452043965
 GameObject:
   m_ObjectHideFlags: 0
@@ -15001,7 +16145,7 @@ NavMeshAgent:
   m_Acceleration: 8
   avoidancePriority: 5
   m_AngularSpeed: 120
-  m_StoppingDistance: 0
+  m_StoppingDistance: 1.5
   m_AutoTraverseOffMeshLink: 0
   m_AutoBraking: 1
   m_AutoRepath: 1
@@ -15213,7 +16357,7 @@ Transform:
   m_LocalScale: {x: 6.7, y: 1, z: 4}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1504702556
 GameObject:
@@ -15623,6 +16767,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1554659649}
   - component: {fileID: 1554659650}
+  - component: {fileID: 1554659651}
   m_Layer: 0
   m_Name: Billiard Orange (43)
   m_TagString: Pellet
@@ -15654,12 +16799,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1554659648}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &1554659651
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1554659648}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &1556659037
 GameObject:
   m_ObjectHideFlags: 0
@@ -15731,6 +16889,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1578145371}
   - component: {fileID: 1578145372}
+  - component: {fileID: 1578145373}
   m_Layer: 0
   m_Name: Billiard Orange (35)
   m_TagString: Pellet
@@ -15762,12 +16921,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1578145370}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &1578145373
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578145370}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &1580746362
 GameObject:
   m_ObjectHideFlags: 0
@@ -16560,6 +17732,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1648406887}
   - component: {fileID: 1648406888}
+  - component: {fileID: 1648406889}
   m_Layer: 0
   m_Name: Billiard Orange (39)
   m_TagString: Pellet
@@ -16591,12 +17764,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1648406886}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &1648406889
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1648406886}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &1649781726
 GameObject:
   m_ObjectHideFlags: 0
@@ -16865,6 +18051,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1681005421}
   - component: {fileID: 1681005422}
+  - component: {fileID: 1681005423}
   m_Layer: 0
   m_Name: Billiard Red (31)
   m_TagString: Pellet
@@ -16896,12 +18083,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1681005420}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &1681005423
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1681005420}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &1684939055
 GameObject:
   m_ObjectHideFlags: 0
@@ -17289,22 +18489,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
---- !u!208 &1700182495
-NavMeshObstacle:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919132148789454875}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Shape: 1
-  m_Extents: {x: 20.75, y: 6.5, z: 0.75}
-  m_MoveThreshold: 1
-  m_Carve: 1
-  m_CarveOnlyStationary: 1
-  m_Center: {x: 4, y: 0, z: 0}
-  m_TimeToStationary: 0.5
 --- !u!64 &1700182496
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -17654,7 +18838,7 @@ NavMeshAgent:
   m_Acceleration: 8
   avoidancePriority: 2
   m_AngularSpeed: 120
-  m_StoppingDistance: 0
+  m_StoppingDistance: 1.5
   m_AutoTraverseOffMeshLink: 0
   m_AutoBraking: 1
   m_AutoRepath: 1
@@ -17946,6 +19130,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1748162823}
   - component: {fileID: 1748162824}
+  - component: {fileID: 1748162825}
   m_Layer: 0
   m_Name: Billiard Orange (32)
   m_TagString: Pellet
@@ -17977,12 +19162,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1748162822}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &1748162825
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1748162822}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &1762029719
 GameObject:
   m_ObjectHideFlags: 0
@@ -18543,6 +19741,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1795551880}
   - component: {fileID: 1795551881}
+  - component: {fileID: 1795551882}
   m_Layer: 0
   m_Name: Billiard Red (48)
   m_TagString: Pellet
@@ -18574,12 +19773,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1795551879}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &1795551882
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1795551879}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &1800257874
 GameObject:
   m_ObjectHideFlags: 0
@@ -19002,6 +20214,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1852911598}
   - component: {fileID: 1852911599}
+  - component: {fileID: 1852911600}
   m_Layer: 0
   m_Name: Billiard Orange (57)
   m_TagString: Pellet
@@ -19033,12 +20246,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1852911597}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &1852911600
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1852911597}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &1862754864
 GameObject:
   m_ObjectHideFlags: 0
@@ -19224,6 +20450,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1879774912}
   - component: {fileID: 1879774913}
+  - component: {fileID: 1879774914}
   m_Layer: 0
   m_Name: Billiard Orange (51)
   m_TagString: Pellet
@@ -19255,12 +20482,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1879774911}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &1879774914
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1879774911}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &1895439082
 GameObject:
   m_ObjectHideFlags: 0
@@ -19271,6 +20511,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1895439083}
   - component: {fileID: 1895439084}
+  - component: {fileID: 1895439085}
   m_Layer: 0
   m_Name: Billiard Orange (44)
   m_TagString: Pellet
@@ -19302,12 +20543,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1895439082}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &1895439085
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1895439082}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!64 &1896062138
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -20044,6 +21298,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1975675158}
   - component: {fileID: 1975675159}
+  - component: {fileID: 1975675160}
   m_Layer: 0
   m_Name: Billiard Orange (64)
   m_TagString: Pellet
@@ -20075,12 +21330,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1975675157}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &1975675160
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975675157}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &1976894858
 GameObject:
   m_ObjectHideFlags: 0
@@ -20091,6 +21359,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1976894859}
   - component: {fileID: 1976894860}
+  - component: {fileID: 1976894861}
   m_Layer: 0
   m_Name: Billiard Red (39)
   m_TagString: Pellet
@@ -20122,12 +21391,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1976894858}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &1976894861
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976894858}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &1977949154
 GameObject:
   m_ObjectHideFlags: 0
@@ -20173,7 +21455,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1983477385
 Transform:
@@ -20253,6 +21535,11 @@ Transform:
   m_Father: {fileID: 882296859}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &2008256671 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 0a96824277fc61d47a011fd51bbc1fdb, type: 3}
+  m_PrefabInstance: {fileID: 1219681081}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2010309423
 GameObject:
   m_ObjectHideFlags: 0
@@ -20263,6 +21550,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2010309424}
   - component: {fileID: 2010309425}
+  - component: {fileID: 2010309426}
   m_Layer: 0
   m_Name: Billiard Orange (60)
   m_TagString: Pellet
@@ -20294,12 +21582,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2010309423}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &2010309426
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2010309423}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &2010525674
 GameObject:
   m_ObjectHideFlags: 0
@@ -20356,6 +21657,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2022041363}
   - component: {fileID: 2022041364}
+  - component: {fileID: 2022041365}
   m_Layer: 0
   m_Name: Billiard Orange (54)
   m_TagString: Pellet
@@ -20387,12 +21689,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2022041362}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &2022041365
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2022041362}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &2034654266
 GameObject:
   m_ObjectHideFlags: 0
@@ -20438,6 +21753,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2042463956}
   - component: {fileID: 2042463957}
+  - component: {fileID: 2042463958}
   m_Layer: 0
   m_Name: Billiard Red (53)
   m_TagString: Pellet
@@ -20469,12 +21785,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2042463955}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &2042463958
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2042463955}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &2046145814
 GameObject:
   m_ObjectHideFlags: 0
@@ -20704,6 +22033,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2074783079}
   - component: {fileID: 2074783080}
+  - component: {fileID: 2074783081}
   m_Layer: 0
   m_Name: Billiard Orange (59)
   m_TagString: Pellet
@@ -20735,12 +22065,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2074783078}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &2074783081
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2074783078}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &2082581996
 GameObject:
   m_ObjectHideFlags: 0
@@ -21700,7 +23043,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132148467662609}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -1, y: -0, z: -17.81}
+  m_LocalPosition: {x: -1, y: 0, z: -17.81}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2034654267}
@@ -21714,9 +23057,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132148515434686}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0.12, y: -0, z: 1}
+  m_LocalPosition: {x: -0.12, y: 0.4, z: 3.65}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 90375174}
   m_Father: {fileID: 2034654267}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
@@ -21776,9 +23120,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132148380486746}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -0.06, y: -0.1, z: -1}
+  m_LocalPosition: {x: -0.06, y: 0.4, z: -0.03}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 2008256671}
   m_Father: {fileID: 2034654267}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
@@ -21822,9 +23167,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132148150359036}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -2.35, y: -0, z: 1}
+  m_LocalPosition: {x: -2.35, y: 0.4, z: 3.64}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1269012449}
   m_Father: {fileID: 2034654267}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
@@ -21898,9 +23244,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132148087961587}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -2.24, y: 0, z: -1}
+  m_LocalPosition: {x: -2.24, y: 0.4, z: -0.14}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1329559761}
   m_Father: {fileID: 2034654267}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
@@ -22344,6 +23691,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543450652020843412}
   - component: {fileID: 919132147478460719}
+  - component: {fileID: 919132147478460720}
   m_Layer: 0
   m_Name: Billiard Red (27)
   m_TagString: Pellet
@@ -22359,12 +23707,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132147478460718}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &919132147478460720
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132147478460718}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &919132147490899669
 GameObject:
   m_ObjectHideFlags: 0
@@ -22375,6 +23736,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543450652016516207}
   - component: {fileID: 919132147490899670}
+  - component: {fileID: 919132147490899671}
   m_Layer: 0
   m_Name: Billiard Red (3)
   m_TagString: Pellet
@@ -22390,12 +23752,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132147490899669}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &919132147490899671
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132147490899669}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &919132147491515129
 GameObject:
   m_ObjectHideFlags: 0
@@ -22406,6 +23781,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543450652017160259}
   - component: {fileID: 919132147491515130}
+  - component: {fileID: 919132147491515131}
   m_Layer: 0
   m_Name: Billiard Red (10)
   m_TagString: Pellet
@@ -22421,12 +23797,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132147491515129}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &919132147491515131
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132147491515129}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &919132147548282845
 GameObject:
   m_ObjectHideFlags: 0
@@ -22437,6 +23826,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543450652092761447}
   - component: {fileID: 919132147548282846}
+  - component: {fileID: 919132147548282847}
   m_Layer: 0
   m_Name: Billiard Red (14)
   m_TagString: Pellet
@@ -22452,12 +23842,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132147548282845}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &919132147548282847
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132147548282845}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &919132147554844696
 GameObject:
   m_ObjectHideFlags: 0
@@ -22468,6 +23871,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543450652078398114}
   - component: {fileID: 919132147554844697}
+  - component: {fileID: 919132147554844698}
   m_Layer: 0
   m_Name: Billiard Red
   m_TagString: Pellet
@@ -22483,12 +23887,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132147554844696}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &919132147554844698
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132147554844696}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &919132147569783699
 GameObject:
   m_ObjectHideFlags: 0
@@ -22499,6 +23916,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543450652097489193}
   - component: {fileID: 919132147569783700}
+  - component: {fileID: 919132147569783701}
   m_Layer: 0
   m_Name: Billiard Red (29)
   m_TagString: Pellet
@@ -22514,12 +23932,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132147569783699}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &919132147569783701
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132147569783699}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &919132147652509366
 GameObject:
   m_ObjectHideFlags: 0
@@ -22548,6 +23979,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543450651865017163}
   - component: {fileID: 919132147677016562}
+  - component: {fileID: 919132147677016563}
   m_Layer: 0
   m_Name: Billiard Orange (26)
   m_TagString: Pellet
@@ -22563,12 +23995,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132147677016561}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &919132147677016563
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132147677016561}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &919132147679738694
 GameObject:
   m_ObjectHideFlags: 0
@@ -22579,6 +24024,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543450651953717756}
   - component: {fileID: 919132147679738695}
+  - component: {fileID: 919132147679738696}
   m_Layer: 0
   m_Name: Billiard Red (13)
   m_TagString: Pellet
@@ -22594,12 +24040,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132147679738694}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &919132147679738696
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132147679738694}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &919132147682722233
 GameObject:
   m_ObjectHideFlags: 0
@@ -22610,6 +24069,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543450651958778627}
   - component: {fileID: 919132147682722234}
+  - component: {fileID: 919132147682722235}
   m_Layer: 0
   m_Name: Billiard Red (9)
   m_TagString: Pellet
@@ -22625,12 +24085,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132147682722233}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &919132147682722235
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132147682722233}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &919132147829913936
 GameObject:
   m_ObjectHideFlags: 0
@@ -22641,6 +24114,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543450651837555690}
   - component: {fileID: 919132147829913937}
+  - component: {fileID: 919132147829913938}
   m_Layer: 0
   m_Name: Billiard Orange (4)
   m_TagString: Pellet
@@ -22656,12 +24130,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132147829913936}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &919132147829913938
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132147829913936}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &919132147906601714
 GameObject:
   m_ObjectHideFlags: 0
@@ -22672,6 +24159,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543450651626911816}
   - component: {fileID: 919132147906601715}
+  - component: {fileID: 919132147906601716}
   m_Layer: 0
   m_Name: Billiard Red (4)
   m_TagString: Pellet
@@ -22687,12 +24175,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132147906601714}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &919132147906601716
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132147906601714}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &919132147909983073
 GameObject:
   m_ObjectHideFlags: 0
@@ -22721,6 +24222,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543450651667061695}
   - component: {fileID: 919132147999146246}
+  - component: {fileID: 919132147999146247}
   m_Layer: 0
   m_Name: Billiard Orange (19)
   m_TagString: Pellet
@@ -22736,12 +24238,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132147999146245}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &919132147999146247
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132147999146245}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &919132148044266482
 GameObject:
   m_ObjectHideFlags: 0
@@ -22771,6 +24286,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543450652623262312}
   - component: {fileID: 919132148082936019}
+  - component: {fileID: 919132148082936020}
   m_Layer: 0
   m_Name: Billiard Red (16)
   m_TagString: Pellet
@@ -22786,12 +24302,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132148082936018}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &919132148082936020
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148082936018}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &919132148087961587
 GameObject:
   m_ObjectHideFlags: 0
@@ -22899,6 +24428,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543450652480135382}
   - component: {fileID: 919132148227127917}
+  - component: {fileID: 919132148227127918}
   m_Layer: 0
   m_Name: Billiard Red (26)
   m_TagString: Pellet
@@ -22914,12 +24444,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132148227127916}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &919132148227127918
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148227127916}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &919132148247387982
 GameObject:
   m_ObjectHideFlags: 0
@@ -22930,6 +24473,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543450652502459892}
   - component: {fileID: 919132148247387983}
+  - component: {fileID: 919132148247387984}
   m_Layer: 0
   m_Name: Billiard Red (15)
   m_TagString: Pellet
@@ -22945,12 +24489,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132148247387982}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &919132148247387984
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148247387982}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &919132148297890539
 GameObject:
   m_ObjectHideFlags: 0
@@ -22961,6 +24518,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543450652284526673}
   - component: {fileID: 919132148297890540}
+  - component: {fileID: 919132148297890541}
   m_Layer: 0
   m_Name: Billiard Red (8)
   m_TagString: Pellet
@@ -22976,12 +24534,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132148297890539}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &919132148297890541
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148297890539}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &919132148369964002
 GameObject:
   m_ObjectHideFlags: 0
@@ -22992,6 +24563,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543450652371312984}
   - component: {fileID: 919132148369964003}
+  - component: {fileID: 919132148369964004}
   m_Layer: 0
   m_Name: Billiard Orange (27)
   m_TagString: Pellet
@@ -23007,12 +24579,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132148369964002}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &919132148369964004
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148369964002}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &919132148370472223
 GameObject:
   m_ObjectHideFlags: 0
@@ -23023,6 +24608,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543450652378081189}
   - component: {fileID: 919132148370472224}
+  - component: {fileID: 919132148370472225}
   m_Layer: 0
   m_Name: Billiard Orange (8)
   m_TagString: Pellet
@@ -23038,12 +24624,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132148370472223}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &919132148370472225
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148370472223}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &919132148380486746
 GameObject:
   m_ObjectHideFlags: 0
@@ -23103,6 +24702,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543450652366724096}
   - component: {fileID: 919132148382140091}
+  - component: {fileID: 919132148382140092}
   m_Layer: 0
   m_Name: Billiard Red (5)
   m_TagString: Pellet
@@ -23118,12 +24718,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132148382140090}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &919132148382140092
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148382140090}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &919132148406808263
 GameObject:
   m_ObjectHideFlags: 0
@@ -23134,6 +24747,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543450652343121021}
   - component: {fileID: 919132148406808264}
+  - component: {fileID: 919132148406808265}
   m_Layer: 0
   m_Name: Billiard Red (7)
   m_TagString: Pellet
@@ -23149,12 +24763,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132148406808263}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &919132148406808265
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148406808263}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &919132148451554278
 GameObject:
   m_ObjectHideFlags: 0
@@ -23165,6 +24792,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543450652121557340}
   - component: {fileID: 919132148451554279}
+  - component: {fileID: 919132148451554280}
   m_Layer: 0
   m_Name: Billiard Red (6)
   m_TagString: Pellet
@@ -23180,12 +24808,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132148451554278}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &919132148451554280
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148451554278}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &919132148467662609
 GameObject:
   m_ObjectHideFlags: 0
@@ -23197,12 +24838,11 @@ GameObject:
   - component: {fileID: 543450652139726251}
   - component: {fileID: 3469287838270433806}
   - component: {fileID: 1711813854475968196}
-  - component: {fileID: 722186566}
   - component: {fileID: 722186563}
   - component: {fileID: 722186564}
-  - component: {fileID: 919132148467662610}
   - component: {fileID: 919132148467662611}
   - component: {fileID: 919132148467662612}
+  - component: {fileID: 919132148467662610}
   m_Layer: 6
   m_Name: PacMan
   m_TagString: Player
@@ -23210,28 +24850,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!195 &919132148467662610
-NavMeshAgent:
+--- !u!54 &919132148467662610
+Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132148467662609}
-  m_Enabled: 1
-  m_AgentTypeID: 0
-  m_Radius: 1
-  m_Speed: 3.5
-  m_Acceleration: 8
-  avoidancePriority: 1
-  m_AngularSpeed: 120
-  m_StoppingDistance: 0
-  m_AutoTraverseOffMeshLink: 1
-  m_AutoBraking: 1
-  m_AutoRepath: 1
-  m_Height: 0.3
-  m_BaseOffset: 0
-  m_WalkableMask: 1
-  m_ObstacleAvoidanceType: 4
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!143 &919132148467662611
 CharacterController:
   m_ObjectHideFlags: 0
@@ -23243,13 +24877,13 @@ CharacterController:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Height: 1.9904467
-  m_Radius: 0.9999937
+  m_Height: 1
+  m_Radius: 1
   m_SlopeLimit: 45
   m_StepOffset: 0.3
-  m_SkinWidth: 0.08
+  m_SkinWidth: 0.02
   m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: 0.41, z: 0}
 --- !u!135 &919132148467662612
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -23322,6 +24956,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543450653051124426}
   - component: {fileID: 919132148594679921}
+  - component: {fileID: 919132148594679922}
   m_Layer: 0
   m_Name: Billiard Red (25)
   m_TagString: Pellet
@@ -23337,12 +24972,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132148594679920}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &919132148594679922
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148594679920}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &919132148595386572
 GameObject:
   m_ObjectHideFlags: 0
@@ -23353,6 +25001,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543450653051794038}
   - component: {fileID: 919132148595386573}
+  - component: {fileID: 919132148595386574}
   m_Layer: 0
   m_Name: Billiard Orange (11)
   m_TagString: Pellet
@@ -23368,12 +25017,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132148595386572}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &919132148595386574
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148595386572}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &919132148668790275
 GameObject:
   m_ObjectHideFlags: 0
@@ -23384,6 +25046,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543450653146164409}
   - component: {fileID: 919132148668790276}
+  - component: {fileID: 919132148668790277}
   m_Layer: 0
   m_Name: Billiard Orange (2)
   m_TagString: Pellet
@@ -23399,12 +25062,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132148668790275}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &919132148668790277
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148668790275}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &919132148679556928
 GameObject:
   m_ObjectHideFlags: 0
@@ -23415,6 +25091,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543450653135988218}
   - component: {fileID: 919132148679556929}
+  - component: {fileID: 919132148679556930}
   m_Layer: 0
   m_Name: Billiard Orange
   m_TagString: Pellet
@@ -23430,12 +25107,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132148679556928}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &919132148679556930
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148679556928}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &919132148715721290
 GameObject:
   m_ObjectHideFlags: 0
@@ -23446,6 +25136,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543450652972927216}
   - component: {fileID: 919132148715721291}
+  - component: {fileID: 919132148715721292}
   m_Layer: 0
   m_Name: Billiard Red (21)
   m_TagString: Pellet
@@ -23461,12 +25152,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132148715721290}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &919132148715721292
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148715721290}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &919132148773093697
 GameObject:
   m_ObjectHideFlags: 0
@@ -23477,6 +25181,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543450653049183227}
   - component: {fileID: 919132148773093698}
+  - component: {fileID: 919132148773093699}
   m_Layer: 0
   m_Name: Billiard Orange (5)
   m_TagString: Pellet
@@ -23492,12 +25197,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132148773093697}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &919132148773093699
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148773093697}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &919132148789454875
 GameObject:
   m_ObjectHideFlags: 0
@@ -23510,13 +25228,12 @@ GameObject:
   - component: {fileID: 3469287836841409796}
   - component: {fileID: 1711813856270158286}
   - component: {fileID: 1700182496}
-  - component: {fileID: 1700182495}
   m_Layer: 0
   m_Name: PacManMap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
-  m_StaticEditorFlags: 4294967263
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &919132148854127406
 GameObject:
@@ -23528,6 +25245,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543450652792529300}
   - component: {fileID: 919132148854127407}
+  - component: {fileID: 919132148854127408}
   m_Layer: 0
   m_Name: Billiard Red (17)
   m_TagString: Pellet
@@ -23543,12 +25261,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132148854127406}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &919132148854127408
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148854127406}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &919132148854676878
 GameObject:
   m_ObjectHideFlags: 0
@@ -23559,6 +25290,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543450652793079604}
   - component: {fileID: 919132148854676879}
+  - component: {fileID: 919132148854676880}
   m_Layer: 0
   m_Name: Billiard Red (19)
   m_TagString: Pellet
@@ -23574,12 +25306,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132148854676878}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &919132148854676880
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148854676878}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &919132148897580955
 GameObject:
   m_ObjectHideFlags: 0
@@ -23590,6 +25335,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543450652884262177}
   - component: {fileID: 919132148897580956}
+  - component: {fileID: 919132148897580957}
   m_Layer: 0
   m_Name: Billiard Orange (7)
   m_TagString: Pellet
@@ -23605,12 +25351,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132148897580955}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &919132148897580957
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148897580955}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &919132148943680904
 GameObject:
   m_ObjectHideFlags: 0
@@ -23621,6 +25380,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543450652879990578}
   - component: {fileID: 919132148943680905}
+  - component: {fileID: 919132148943680906}
   m_Layer: 0
   m_Name: Billiard Red (30)
   m_TagString: Pellet
@@ -23636,12 +25396,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132148943680904}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &919132148943680906
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132148943680904}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &919132149009501550
 GameObject:
   m_ObjectHideFlags: 0
@@ -23652,6 +25425,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543450652679477204}
   - component: {fileID: 919132149009501551}
+  - component: {fileID: 919132149009501552}
   m_Layer: 0
   m_Name: Billiard Orange (9)
   m_TagString: Pellet
@@ -23667,12 +25441,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132149009501550}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &919132149009501552
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132149009501550}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &919132149016597779
 GameObject:
   m_ObjectHideFlags: 0
@@ -23683,6 +25470,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543450652671922089}
   - component: {fileID: 919132149016597780}
+  - component: {fileID: 919132149016597781}
   m_Layer: 0
   m_Name: Billiard Orange (6)
   m_TagString: Pellet
@@ -23698,12 +25486,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132149016597779}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &919132149016597781
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132149016597779}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &919132149023871427
 GameObject:
   m_ObjectHideFlags: 0
@@ -23714,6 +25515,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543450652756790137}
   - component: {fileID: 919132149023871428}
+  - component: {fileID: 919132149023871429}
   m_Layer: 0
   m_Name: Billiard Red (20)
   m_TagString: Pellet
@@ -23729,12 +25531,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132149023871427}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &919132149023871429
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132149023871427}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &919132149089547152
 GameObject:
   m_ObjectHideFlags: 0
@@ -23745,6 +25560,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543450653631965482}
   - component: {fileID: 919132149089547153}
+  - component: {fileID: 919132149089547154}
   m_Layer: 0
   m_Name: Billiard Red (2)
   m_TagString: Pellet
@@ -23760,12 +25576,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132149089547152}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &919132149089547154
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132149089547152}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &919132149104183063
 GameObject:
   m_ObjectHideFlags: 0
@@ -23776,6 +25605,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543450653625638317}
   - component: {fileID: 919132149104183064}
+  - component: {fileID: 919132149104183065}
   m_Layer: 0
   m_Name: Billiard Red (12)
   m_TagString: Pellet
@@ -23791,12 +25621,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132149104183063}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &919132149104183065
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132149104183063}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &919132149128171295
 GameObject:
   m_ObjectHideFlags: 0
@@ -23826,6 +25669,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543450653457313527}
   - component: {fileID: 919132149271409742}
+  - component: {fileID: 919132149271409743}
   m_Layer: 0
   m_Name: Billiard Red (1)
   m_TagString: Pellet
@@ -23841,12 +25685,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132149271409741}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &919132149271409743
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132149271409741}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &919132149415872757
 GameObject:
   m_ObjectHideFlags: 0
@@ -23857,6 +25714,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543450653337539151}
   - component: {fileID: 919132149415872758}
+  - component: {fileID: 919132149415872759}
   m_Layer: 0
   m_Name: Billiard Orange (25)
   m_TagString: Pellet
@@ -23872,12 +25730,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132149415872757}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &919132149415872759
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132149415872757}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &919132149442976301
 GameObject:
   m_ObjectHideFlags: 0
@@ -23888,6 +25759,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543450653444325527}
   - component: {fileID: 919132149442976302}
+  - component: {fileID: 919132149442976303}
   m_Layer: 0
   m_Name: Billiard Red (22)
   m_TagString: Pellet
@@ -23903,12 +25775,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132149442976301}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &919132149442976303
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132149442976301}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &919132149468718895
 GameObject:
   m_ObjectHideFlags: 0
@@ -23919,6 +25804,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543450653386161557}
   - component: {fileID: 919132149468718896}
+  - component: {fileID: 919132149468718897}
   m_Layer: 0
   m_Name: Billiard Red (23)
   m_TagString: Pellet
@@ -23934,12 +25820,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132149468718895}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &919132149468718897
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132149468718895}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &919132149501086267
 GameObject:
   m_ObjectHideFlags: 0
@@ -23950,6 +25849,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543450653219295361}
   - component: {fileID: 919132149501086268}
+  - component: {fileID: 919132149501086269}
   m_Layer: 0
   m_Name: Billiard Red (28)
   m_TagString: Pellet
@@ -23965,12 +25865,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132149501086267}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &919132149501086269
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132149501086267}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &919132149518051736
 GameObject:
   m_ObjectHideFlags: 0
@@ -23981,6 +25894,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543450653236294434}
   - component: {fileID: 919132149518051737}
+  - component: {fileID: 919132149518051738}
   m_Layer: 0
   m_Name: Billiard Red (11)
   m_TagString: Pellet
@@ -23996,12 +25910,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132149518051736}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &919132149518051738
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132149518051736}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &919132149557670171
 GameObject:
   m_ObjectHideFlags: 0
@@ -24012,6 +25939,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543450653296880545}
   - component: {fileID: 919132149557670172}
+  - component: {fileID: 919132149557670173}
   m_Layer: 0
   m_Name: Billiard Red (18)
   m_TagString: Pellet
@@ -24027,12 +25955,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132149557670171}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &919132149557670173
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132149557670171}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &919132149564929569
 GameObject:
   m_ObjectHideFlags: 0
@@ -24043,6 +25984,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543450653297814683}
   - component: {fileID: 919132149564929570}
+  - component: {fileID: 919132149564929571}
   m_Layer: 0
   m_Name: Billiard Red (24)
   m_TagString: Pellet
@@ -24058,12 +26000,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132149564929569}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &919132149564929571
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132149564929569}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &919132149570307546
 GameObject:
   m_ObjectHideFlags: 0
@@ -24074,6 +26029,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543450653292748640}
   - component: {fileID: 919132149570307547}
+  - component: {fileID: 919132149570307548}
   m_Layer: 0
   m_Name: Billiard Orange (3)
   m_TagString: Pellet
@@ -24089,12 +26045,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132149570307546}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &919132149570307548
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132149570307546}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!1 &919132149579103011
 GameObject:
   m_ObjectHideFlags: 0
@@ -24105,6 +26074,7 @@ GameObject:
   m_Component:
   - component: {fileID: 543450653318308249}
   - component: {fileID: 919132149579103012}
+  - component: {fileID: 919132149579103013}
   m_Layer: 0
   m_Name: Billiard Orange (12)
   m_TagString: Pellet
@@ -24120,12 +26090,25 @@ MeshCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132149579103011}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!65 &919132149579103013
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919132149579103011}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0.76, z: 0}
 --- !u!4 &1485951463298243578
 Transform:
   m_ObjectHideFlags: 0
@@ -24161,7 +26144,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132148380486746}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -24202,7 +26185,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132148515434686}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -24284,7 +26267,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132148087961587}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -24296,7 +26279,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f265aca6a0412684ab3a0e757ed56bb4, type: 2}
+  - {fileID: 2100000, guid: 0890b276036455d4fa1800155e9479e7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -24366,7 +26349,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132148150359036}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
