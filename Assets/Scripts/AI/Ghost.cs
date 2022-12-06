@@ -12,7 +12,7 @@ public abstract class Ghost : MonoBehaviour
     //Auto-properties
     public Pacman Target { get; private set; }
     public NavMeshAgent Agent { get; private set; }
-    public MeshRenderer GhostRenderer { get; private set; }
+    public MeshRenderer GhostRenderer;
     public Material DefaultMaterial { get; private set; }
     public GhostState DefaultState { get; protected set; }
     public GhostState_Flee FleeState { get; private set; }
@@ -25,17 +25,19 @@ public abstract class Ghost : MonoBehaviour
     protected virtual void Awake()
     {
         //Get mesh renderer reference
-        TryGetComponent(out MeshRenderer renderer);
-        if (renderer != null)
-        {
-            GhostRenderer = renderer;
-            DefaultMaterial = GhostRenderer.material;
-        }
-        else
-        {
-            Debug.LogError($"Ghost: {gameObject.name} must have a Mesh Renderer!");
-        }
+        /*TryGetComponent(out MeshRenderer renderer);
+         if (renderer != null)
+         {
+             GhostRenderer = renderer;
+
+         }
+         else
+         {
+             Debug.LogError($"Ghost: {gameObject.name} must have a Mesh Renderer!");
+         }*/
         //Get nav mesh agent reference
+
+        DefaultMaterial = GhostRenderer.material;
         TryGetComponent(out NavMeshAgent agent);
         if(agent != null)
         {
@@ -352,7 +354,7 @@ public class GhostState_Respawn : GhostState
 
     public override void OnUpdate()
     {
-        if (Vector3.Distance(Instance.transform.position, target) < Instance.Agent.stoppingDistance)
+        if (Vector3.Distance(Instance.transform.position, target) < Instance.Agent.stoppingDistance +1)
         {
             if (GameManager.Instance.PowerUpTimer != -1)
             {

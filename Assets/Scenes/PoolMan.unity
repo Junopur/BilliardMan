@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 2031317}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -254,7 +254,7 @@ Transform:
   - {fileID: 2010525675}
   - {fileID: 1445408622}
   m_Father: {fileID: 1969530897}
-  m_RootOrder: 83
+  m_RootOrder: 82
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &14071082
 MeshCollider:
@@ -422,7 +422,7 @@ Transform:
   - {fileID: 919472658}
   - {fileID: 829691428}
   m_Father: {fileID: 1969530897}
-  m_RootOrder: 97
+  m_RootOrder: 96
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &31361242
 MeshCollider:
@@ -575,7 +575,7 @@ Transform:
   - {fileID: 1598862946}
   - {fileID: 1943154415}
   m_Father: {fileID: 1969530897}
-  m_RootOrder: 94
+  m_RootOrder: 93
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &48381730
 MeshCollider:
@@ -728,7 +728,7 @@ Transform:
   - {fileID: 1233101987}
   - {fileID: 1601976206}
   m_Father: {fileID: 1969530897}
-  m_RootOrder: 100
+  m_RootOrder: 99
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &61911031
 MeshCollider:
@@ -770,7 +770,7 @@ GameObject:
   - component: {fileID: 67107829}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -963,6 +963,11 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!23 &84081904 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 24366428364ef4145b96d8be338caea1, type: 3}
+  m_PrefabInstance: {fileID: 513212602}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &84421472
 GameObject:
   m_ObjectHideFlags: 0
@@ -995,7 +1000,7 @@ Transform:
   - {fileID: 963885903}
   - {fileID: 979175516}
   m_Father: {fileID: 1969530897}
-  m_RootOrder: 79
+  m_RootOrder: 78
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &84421474
 MeshCollider:
@@ -1103,7 +1108,7 @@ GameObject:
   - component: {fileID: 91316495}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1282,7 +1287,7 @@ Transform:
   - {fileID: 1319936598}
   - {fileID: 710091760}
   m_Father: {fileID: 1969530897}
-  m_RootOrder: 101
+  m_RootOrder: 100
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &99968518
 MeshCollider:
@@ -1324,7 +1329,7 @@ GameObject:
   - component: {fileID: 106425619}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1840,7 +1845,7 @@ Transform:
   - {fileID: 982593713}
   - {fileID: 1368101438}
   m_Father: {fileID: 1969530897}
-  m_RootOrder: 81
+  m_RootOrder: 80
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &202172193
 MeshCollider:
@@ -1901,7 +1906,7 @@ Transform:
   - {fileID: 1341119067}
   - {fileID: 1862754865}
   m_Father: {fileID: 1969530897}
-  m_RootOrder: 82
+  m_RootOrder: 81
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &213009348
 MeshCollider:
@@ -1943,7 +1948,7 @@ GameObject:
   - component: {fileID: 220542299}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2029,6 +2034,11 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!23 &228295684 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 8cc0cb1274741ca4cbc658a6235ee1b5, type: 3}
+  m_PrefabInstance: {fileID: 425326620}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &231304363
 GameObject:
   m_ObjectHideFlags: 0
@@ -2042,7 +2052,7 @@ GameObject:
   - component: {fileID: 231304366}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2187,7 +2197,7 @@ GameObject:
   - component: {fileID: 233530730}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2530,7 +2540,7 @@ GameObject:
   - component: {fileID: 293061208}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2751,7 +2761,7 @@ GameObject:
   - component: {fileID: 309381786}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3052,7 +3062,7 @@ GameObject:
   - component: {fileID: 341916782}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3791,7 +3801,7 @@ GameObject:
   - component: {fileID: 435067827}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3890,7 +3900,7 @@ GameObject:
   - component: {fileID: 439357154}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3989,7 +3999,7 @@ GameObject:
   - component: {fileID: 442201433}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4457,7 +4467,7 @@ GameObject:
   - component: {fileID: 512302700}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4675,7 +4685,7 @@ Transform:
   - {fileID: 1953606432}
   - {fileID: 2142744079}
   m_Father: {fileID: 1969530897}
-  m_RootOrder: 103
+  m_RootOrder: 102
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &515012842
 MeshCollider:
@@ -4717,7 +4727,7 @@ GameObject:
   - component: {fileID: 519197194}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4861,7 +4871,7 @@ GameObject:
   - component: {fileID: 527998792}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5054,7 +5064,7 @@ GameObject:
   - component: {fileID: 551133057}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5401,7 +5411,7 @@ Transform:
   - {fileID: 1819615499}
   - {fileID: 995343621}
   m_Father: {fileID: 1969530897}
-  m_RootOrder: 90
+  m_RootOrder: 89
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &597395900
 MeshCollider:
@@ -5504,7 +5514,7 @@ GameObject:
   - component: {fileID: 612620636}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5603,7 +5613,7 @@ GameObject:
   - component: {fileID: 616255992}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5732,7 +5742,7 @@ GameObject:
   - component: {fileID: 627624527}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5831,7 +5841,7 @@ GameObject:
   - component: {fileID: 631484604}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5930,7 +5940,7 @@ GameObject:
   - component: {fileID: 633073515}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6079,7 +6089,7 @@ Transform:
   - {fileID: 294566117}
   - {fileID: 512302698}
   m_Father: {fileID: 1969530897}
-  m_RootOrder: 106
+  m_RootOrder: 105
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &644256041
 MeshCollider:
@@ -6379,7 +6389,7 @@ GameObject:
   - component: {fileID: 692107808}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6478,7 +6488,7 @@ GameObject:
   - component: {fileID: 694982482}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6753,7 +6763,7 @@ GameObject:
   - component: {fileID: 709615187}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6852,7 +6862,7 @@ GameObject:
   - component: {fileID: 710091762}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7078,7 +7088,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lives: 3
   invincibleTime: 3
-  speed: 20
+  speed: 4.5
   pacmanSpawn: {fileID: 1493569623}
   lifeIcons:
   - {fileID: 1778397290}
@@ -7372,7 +7382,7 @@ GameObject:
   - component: {fileID: 743720715}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7624,7 +7634,7 @@ GameObject:
   - component: {fileID: 771504414}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7742,7 +7752,7 @@ Transform:
   - {fileID: 1021449431}
   - {fileID: 231304364}
   m_Father: {fileID: 1969530897}
-  m_RootOrder: 92
+  m_RootOrder: 91
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &783173745
 MeshCollider:
@@ -7846,7 +7856,7 @@ GameObject:
   - component: {fileID: 802539901}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8019,7 +8029,7 @@ Transform:
   - {fileID: 758659980}
   - {fileID: 743720713}
   m_Father: {fileID: 1969530897}
-  m_RootOrder: 95
+  m_RootOrder: 94
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &816188304
 MeshCollider:
@@ -8144,7 +8154,7 @@ GameObject:
   - component: {fileID: 829691430}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9065,7 +9075,7 @@ Transform:
   - {fileID: 527189443}
   - {fileID: 1829745414}
   m_Father: {fileID: 1969530897}
-  m_RootOrder: 110
+  m_RootOrder: 109
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &938887274
 MeshCollider:
@@ -9126,7 +9136,7 @@ Transform:
   - {fileID: 1208667413}
   - {fileID: 1617026990}
   m_Father: {fileID: 1969530897}
-  m_RootOrder: 98
+  m_RootOrder: 97
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &939063535
 MeshCollider:
@@ -9501,7 +9511,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 80
-  offset: {x: 3, y: 25, z: 0}
+  offset: {x: 0, y: 25, z: -3}
 --- !u!1 &963885902
 GameObject:
   m_ObjectHideFlags: 0
@@ -9561,7 +9571,7 @@ GameObject:
   - component: {fileID: 973458251}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9660,7 +9670,7 @@ GameObject:
   - component: {fileID: 979175518}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9838,7 +9848,7 @@ GameObject:
   - component: {fileID: 985058580}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10154,7 +10164,7 @@ GameObject:
   - component: {fileID: 995343623}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10425,7 +10435,7 @@ Transform:
   - {fileID: 914885032}
   - {fileID: 771504412}
   m_Father: {fileID: 1969530897}
-  m_RootOrder: 113
+  m_RootOrder: 112
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1017733785
 MeshCollider:
@@ -10904,7 +10914,7 @@ GameObject:
   - component: {fileID: 1071913481}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11064,7 +11074,7 @@ GameObject:
   - component: {fileID: 1073275027}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11239,7 +11249,7 @@ GameObject:
   - component: {fileID: 1087014290}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11388,7 +11398,7 @@ Transform:
   - {fileID: 24605391}
   - {fileID: 442201431}
   m_Father: {fileID: 1969530897}
-  m_RootOrder: 85
+  m_RootOrder: 84
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1096560832
 MeshCollider:
@@ -11449,7 +11459,7 @@ Transform:
   - {fileID: 1165569900}
   - {fileID: 1087014288}
   m_Father: {fileID: 1969530897}
-  m_RootOrder: 114
+  m_RootOrder: 113
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1100538319
 MeshCollider:
@@ -11587,7 +11597,7 @@ Transform:
   - {fileID: 1452043966}
   - {fileID: 694982480}
   m_Father: {fileID: 1969530897}
-  m_RootOrder: 93
+  m_RootOrder: 92
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1107798732
 MeshCollider:
@@ -11648,7 +11658,7 @@ Transform:
   - {fileID: 1166374624}
   - {fileID: 1186650380}
   m_Father: {fileID: 1969530897}
-  m_RootOrder: 112
+  m_RootOrder: 111
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1108188829
 MeshCollider:
@@ -11690,7 +11700,7 @@ GameObject:
   - component: {fileID: 1112331161}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11944,6 +11954,11 @@ Transform:
   m_Father: {fileID: 294566117}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1142482662 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 0a96824277fc61d47a011fd51bbc1fdb, type: 3}
+  m_PrefabInstance: {fileID: 1219681081}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1142660630
 GameObject:
   m_ObjectHideFlags: 0
@@ -12389,7 +12404,7 @@ GameObject:
   - component: {fileID: 1186650382}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12744,7 +12759,7 @@ Transform:
   - {fileID: 45683522}
   - {fileID: 973458249}
   m_Father: {fileID: 1969530897}
-  m_RootOrder: 87
+  m_RootOrder: 86
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1223672294
 MeshCollider:
@@ -13015,7 +13030,7 @@ GameObject:
   - component: {fileID: 1252840633}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13114,7 +13129,7 @@ GameObject:
   - component: {fileID: 1261736178}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13337,7 +13352,7 @@ Transform:
   - {fileID: 882865802}
   - {fileID: 220542297}
   m_Father: {fileID: 1969530897}
-  m_RootOrder: 109
+  m_RootOrder: 108
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1267616145
 MeshCollider:
@@ -13459,7 +13474,7 @@ GameObject:
   - component: {fileID: 1316447569}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13669,7 +13684,7 @@ Transform:
   - {fileID: 1081102982}
   - {fileID: 1699672042}
   m_Father: {fileID: 1969530897}
-  m_RootOrder: 76
+  m_RootOrder: 75
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1323544263
 MeshCollider:
@@ -13934,7 +13949,7 @@ Transform:
   - {fileID: 749315118}
   - {fileID: 519197192}
   m_Father: {fileID: 1969530897}
-  m_RootOrder: 78
+  m_RootOrder: 77
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1344738113
 MeshCollider:
@@ -14113,7 +14128,7 @@ GameObject:
   - component: {fileID: 1368101440}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14231,7 +14246,7 @@ Transform:
   - {fileID: 934140598}
   - {fileID: 1964935276}
   m_Father: {fileID: 1969530897}
-  m_RootOrder: 111
+  m_RootOrder: 110
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1382013526
 MeshCollider:
@@ -14402,7 +14417,7 @@ Transform:
   - {fileID: 1477566182}
   - {fileID: 106425617}
   m_Father: {fileID: 1969530897}
-  m_RootOrder: 107
+  m_RootOrder: 106
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1394452447
 MeshCollider:
@@ -14505,7 +14520,7 @@ GameObject:
   - component: {fileID: 1419153338}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14669,7 +14684,7 @@ Transform:
   - {fileID: 1793905454}
   - {fileID: 1419153336}
   m_Father: {fileID: 1969530897}
-  m_RootOrder: 86
+  m_RootOrder: 85
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1420921524
 MeshCollider:
@@ -14757,7 +14772,7 @@ GameObject:
   - component: {fileID: 1422581070}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14993,7 +15008,7 @@ GameObject:
   - component: {fileID: 1445408624}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15111,7 +15126,7 @@ Transform:
   - {fileID: 1535457164}
   - {fileID: 1261736176}
   m_Father: {fileID: 1969530897}
-  m_RootOrder: 91
+  m_RootOrder: 90
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1449808079
 MeshCollider:
@@ -15421,7 +15436,7 @@ GameObject:
   - component: {fileID: 1482056300}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15705,7 +15720,7 @@ GameObject:
   - component: {fileID: 1511859845}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15834,7 +15849,7 @@ GameObject:
   - component: {fileID: 1525560471}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15998,7 +16013,7 @@ Transform:
   - {fileID: 54696409}
   - {fileID: 1766983160}
   m_Father: {fileID: 1969530897}
-  m_RootOrder: 88
+  m_RootOrder: 87
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1554659650
 MeshCollider:
@@ -16120,7 +16135,7 @@ Transform:
   - {fileID: 1331264672}
   - {fileID: 1747475646}
   m_Father: {fileID: 1969530897}
-  m_RootOrder: 80
+  m_RootOrder: 79
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1578145372
 MeshCollider:
@@ -16162,7 +16177,7 @@ GameObject:
   - component: {fileID: 1580746365}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16294,6 +16309,11 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!23 &1589919580 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: a85e798f42a8769488079430d0b76204, type: 3}
+  m_PrefabInstance: {fileID: 1063360947}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1598862945
 GameObject:
   m_ObjectHideFlags: 0
@@ -16353,7 +16373,7 @@ GameObject:
   - component: {fileID: 1601976208}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16561,7 +16581,7 @@ GameObject:
   - component: {fileID: 1617026992}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16787,7 +16807,7 @@ Transform:
   - {fileID: 359194810}
   - {fileID: 2056452510}
   m_Father: {fileID: 1969530897}
-  m_RootOrder: 84
+  m_RootOrder: 83
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1648406888
 MeshCollider:
@@ -17087,7 +17107,7 @@ GameObject:
   - component: {fileID: 1684939058}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17186,7 +17206,7 @@ GameObject:
   - component: {fileID: 1685505203}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17345,7 +17365,7 @@ GameObject:
   - component: {fileID: 1699672044}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17489,7 +17509,7 @@ GameObject:
   - component: {fileID: 1701082597}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17618,7 +17638,7 @@ GameObject:
   - component: {fileID: 1715115429}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17831,7 +17851,7 @@ GameObject:
   - component: {fileID: 1741536560}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17976,7 +17996,7 @@ GameObject:
   - component: {fileID: 1747475648}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18094,7 +18114,7 @@ Transform:
   - {fileID: 354789568}
   - {fileID: 802539899}
   m_Father: {fileID: 1969530897}
-  m_RootOrder: 77
+  m_RootOrder: 76
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1748162824
 MeshCollider:
@@ -18228,7 +18248,7 @@ GameObject:
   - component: {fileID: 1766983162}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18327,7 +18347,7 @@ GameObject:
   - component: {fileID: 1770547891}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18717,7 +18737,7 @@ GameObject:
   - component: {fileID: 1800257877}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18953,7 +18973,7 @@ GameObject:
   - component: {fileID: 1829745416}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19148,7 +19168,7 @@ Transform:
   - {fileID: 2100779477}
   - {fileID: 1770547889}
   m_Father: {fileID: 1969530897}
-  m_RootOrder: 102
+  m_RootOrder: 101
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1852911599
 MeshCollider:
@@ -19190,7 +19210,7 @@ GameObject:
   - component: {fileID: 1862754867}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19384,7 +19404,7 @@ Transform:
   - {fileID: 1743687776}
   - {fileID: 1422581068}
   m_Father: {fileID: 1969530897}
-  m_RootOrder: 96
+  m_RootOrder: 95
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1879774913
 MeshCollider:
@@ -19445,7 +19465,7 @@ Transform:
   - {fileID: 1434688309}
   - {fileID: 1525560469}
   m_Father: {fileID: 1969530897}
-  m_RootOrder: 89
+  m_RootOrder: 88
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1895439084
 MeshCollider:
@@ -19737,7 +19757,7 @@ GameObject:
   - component: {fileID: 1943154417}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19959,7 +19979,7 @@ GameObject:
   - component: {fileID: 1964935278}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20086,7 +20106,7 @@ GameObject:
   - component: {fileID: 1969530897}
   m_Layer: 0
   m_Name: Pellets
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20167,7 +20187,6 @@ Transform:
   - {fileID: 543450653146164409}
   - {fileID: 543450653292748640}
   - {fileID: 543450651837555690}
-  - {fileID: 543450653049183227}
   - {fileID: 543450652671922089}
   - {fileID: 543450652884262177}
   - {fileID: 543450652378081189}
@@ -20252,7 +20271,7 @@ Transform:
   - {fileID: 1584299442}
   - {fileID: 1701082595}
   m_Father: {fileID: 1969530897}
-  m_RootOrder: 108
+  m_RootOrder: 107
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1975675159
 MeshCollider:
@@ -20443,7 +20462,7 @@ Transform:
   - {fileID: 1823765398}
   - {fileID: 2135827036}
   m_Father: {fileID: 1969530897}
-  m_RootOrder: 105
+  m_RootOrder: 104
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &2010309425
 MeshCollider:
@@ -20550,7 +20569,7 @@ Transform:
   - {fileID: 2082581997}
   - {fileID: 1684939056}
   m_Father: {fileID: 1969530897}
-  m_RootOrder: 99
+  m_RootOrder: 98
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &2022041364
 MeshCollider:
@@ -20748,7 +20767,7 @@ GameObject:
   - component: {fileID: 2056452512}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20926,7 +20945,7 @@ Transform:
   - {fileID: 1322431745}
   - {fileID: 91316493}
   m_Father: {fileID: 1969530897}
-  m_RootOrder: 104
+  m_RootOrder: 103
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &2074783080
 MeshCollider:
@@ -21076,7 +21095,7 @@ GameObject:
   - component: {fileID: 2092098958}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21342,7 +21361,7 @@ GameObject:
   - component: {fileID: 2135827038}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21487,7 +21506,7 @@ GameObject:
   - component: {fileID: 2142744081}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21573,68 +21592,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
---- !u!1 &65702494853521670
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 7202193381250428707}
-  - component: {fileID: 65702494853521671}
-  m_Layer: 0
-  m_Name: Camera
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!64 &65702494853521671
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 65702494853521670}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
---- !u!1 &522754683281680791
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8776096138687525076}
-  - component: {fileID: 522754683281680792}
-  m_Layer: 0
-  m_Name: Light
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!64 &522754683281680792
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 522754683281680791}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!4 &543450651626911816
 Transform:
   m_ObjectHideFlags: 0
@@ -21681,7 +21638,7 @@ Transform:
   - {fileID: 8879528568514284321}
   - {fileID: 8632055957143366322}
   m_Father: {fileID: 1969530897}
-  m_RootOrder: 72
+  m_RootOrder: 71
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &543450651837555690
 Transform:
@@ -21729,7 +21686,7 @@ Transform:
   - {fileID: 8879528568325258197}
   - {fileID: 8632055957332728390}
   m_Father: {fileID: 1969530897}
-  m_RootOrder: 74
+  m_RootOrder: 73
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &543450651953717756
 Transform:
@@ -21981,7 +21938,7 @@ Transform:
   - {fileID: 8879528568076382662}
   - {fileID: 8632055957511802965}
   m_Father: {fileID: 1969530897}
-  m_RootOrder: 75
+  m_RootOrder: 74
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &543450652378081189
 Transform:
@@ -21997,7 +21954,7 @@ Transform:
   - {fileID: 8879528568080103227}
   - {fileID: 8632055957510280872}
   m_Father: {fileID: 1969530897}
-  m_RootOrder: 68
+  m_RootOrder: 67
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &543450652422211910
 Transform:
@@ -22105,7 +22062,7 @@ Transform:
   - {fileID: 8879528567518338871}
   - {fileID: 8632055958139584164}
   m_Father: {fileID: 1969530897}
-  m_RootOrder: 66
+  m_RootOrder: 65
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &543450652679477204
 Transform:
@@ -22121,7 +22078,7 @@ Transform:
   - {fileID: 8879528567508158282}
   - {fileID: 8632055958147229401}
   m_Father: {fileID: 1969530897}
-  m_RootOrder: 69
+  m_RootOrder: 68
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &543450652756790137
 Transform:
@@ -22201,7 +22158,7 @@ Transform:
   - {fileID: 8879528567532490175}
   - {fileID: 8632055958058314796}
   m_Father: {fileID: 1969530897}
-  m_RootOrder: 67
+  m_RootOrder: 66
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &543450652972927216
 Transform:
@@ -22233,21 +22190,6 @@ Transform:
   m_Father: {fileID: 1189125642}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 90}
---- !u!4 &543450653049183227
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919132148773093697}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.5, z: -17}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 8879528567140551525}
-  m_Father: {fileID: 1969530897}
-  m_RootOrder: 65
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &543450653051124426
 Transform:
   m_ObjectHideFlags: 0
@@ -22278,7 +22220,7 @@ Transform:
   - {fileID: 8879528567364444904}
   - {fileID: 8632055958293037947}
   m_Father: {fileID: 1969530897}
-  m_RootOrder: 70
+  m_RootOrder: 69
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &543450653135988218
 Transform:
@@ -22324,8 +22266,6 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 8879528566929014815}
-  - {fileID: 7202193381250428707}
-  - {fileID: 8776096138687525076}
   - {fileID: 8632055958661882252}
   m_Father: {fileID: 1969530897}
   m_RootOrder: 28
@@ -22392,7 +22332,7 @@ Transform:
   - {fileID: 8879528566871961863}
   - {fileID: 8632055958719107220}
   m_Father: {fileID: 1969530897}
-  m_RootOrder: 71
+  m_RootOrder: 70
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &543450653337539151
 Transform:
@@ -22408,7 +22348,7 @@ Transform:
   - {fileID: 8879528567110140625}
   - {fileID: 8632055958545212226}
   m_Father: {fileID: 1969530897}
-  m_RootOrder: 73
+  m_RootOrder: 72
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &543450653386161557
 Transform:
@@ -23207,6 +23147,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fleeMaterial: {fileID: 2100000, guid: d1b5a6e3579b322449e3ddac91d6e431, type: 2}
   respawnMaterial: {fileID: 2100000, guid: 7c049a3520f04264094ca143125fc97e, type: 2}
+  GhostRenderer: {fileID: 84081904}
   behaviourSwitchTime: {x: 5, y: 30}
 --- !u!135 &919132148087961589
 SphereCollider:
@@ -23256,6 +23197,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fleeMaterial: {fileID: 2100000, guid: d1b5a6e3579b322449e3ddac91d6e431, type: 2}
   respawnMaterial: {fileID: 2100000, guid: 7c049a3520f04264094ca143125fc97e, type: 2}
+  GhostRenderer: {fileID: 1589919580}
 --- !u!135 &919132148150359038
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -23529,6 +23471,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fleeMaterial: {fileID: 2100000, guid: d1b5a6e3579b322449e3ddac91d6e431, type: 2}
   respawnMaterial: {fileID: 2100000, guid: 7c049a3520f04264094ca143125fc97e, type: 2}
+  GhostRenderer: {fileID: 1142482662}
   offset: {x: 0, y: 0, z: 0}
 --- !u!135 &919132148380486748
 SphereCollider:
@@ -23783,6 +23726,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fleeMaterial: {fileID: 2100000, guid: d1b5a6e3579b322449e3ddac91d6e431, type: 2}
   respawnMaterial: {fileID: 2100000, guid: 7c049a3520f04264094ca143125fc97e, type: 2}
+  GhostRenderer: {fileID: 228295684}
   offset: {x: 0, y: 0, z: 0}
 --- !u!135 &919132148515434688
 SphereCollider:
@@ -24016,51 +23960,6 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919132148715721290}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0.76, z: 0}
---- !u!1 &919132148773093697
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 543450653049183227}
-  - component: {fileID: 919132148773093698}
-  - component: {fileID: 919132148773093699}
-  m_Layer: 0
-  m_Name: Billiard Orange (5)
-  m_TagString: Pellet
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!64 &919132148773093698
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919132148773093697}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
---- !u!65 &919132148773093699
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 919132148773093697}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
@@ -25803,20 +25702,6 @@ Transform:
   m_Father: {fileID: 6583733712072327556}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &2169044308285648604
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8719771546586948532}
-  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0, y: 0.01, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 6583733712213354505}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &2169044308360330711
 Transform:
   m_ObjectHideFlags: 0
@@ -25941,7 +25826,7 @@ GameObject:
   - component: {fileID: 8734485331718431826}
   m_Layer: 0
   m_Name: Chalk
-  m_TagString: Bonus Item
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25958,7 +25843,7 @@ GameObject:
   - component: {fileID: 8734485332026139013}
   m_Layer: 0
   m_Name: Chalk
-  m_TagString: Bonus Item
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26552,21 +26437,6 @@ Transform:
   m_Father: {fileID: 8879528567215233134}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &6583733712213354505
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6905609871323689397}
-  m_LocalRotation: {x: 0.7071061, y: -0.0010459679, z: 0.0010459676, w: 0.707106}
-  m_LocalPosition: {x: -0, y: 0, z: -0.0082860775}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 2169044308285648604}
-  m_Father: {fileID: 8879528567140551525}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &6583733712325550525
 Transform:
   m_ObjectHideFlags: 0
@@ -26965,22 +26835,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6583733712072870200}
-  m_Layer: 0
-  m_Name: Bone
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &6905609871323689397
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6583733712213354505}
   m_Layer: 0
   m_Name: Bone
   m_TagString: Untagged
@@ -27833,37 +27687,6 @@ MeshCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7036213049036660766}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
---- !u!1 &7036213049043173679
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 8879528567140551525}
-  - component: {fileID: 7036213049043173680}
-  m_Layer: 0
-  m_Name: Armature
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!64 &7036213049043173680
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7036213049043173679}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
@@ -28926,20 +28749,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
---- !u!4 &7202193381250428707
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 65702494853521670}
-  m_LocalRotation: {x: 0.21255735, y: 0.90479696, z: -0.08438929, w: -0.35922182}
-  m_LocalPosition: {x: -7.3588915, y: 4.958309, z: 6.925791}
-  m_LocalScale: {x: 100, y: 100.00001, z: 99.99999}
-  m_Children: []
-  m_Father: {fileID: 543450653219295361}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &8204707763224631785
 GameObject:
   m_ObjectHideFlags: 0
@@ -28953,7 +28762,7 @@ GameObject:
   - component: {fileID: 8204707763224631786}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28985,7 +28794,7 @@ GameObject:
   - component: {fileID: 8204707763225132874}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29017,7 +28826,7 @@ GameObject:
   - component: {fileID: 8204707763303896912}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29049,7 +28858,7 @@ GameObject:
   - component: {fileID: 8204707763316401501}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29081,7 +28890,7 @@ GameObject:
   - component: {fileID: 8204707763364116437}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29113,7 +28922,7 @@ GameObject:
   - component: {fileID: 8204707763371765674}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29145,7 +28954,7 @@ GameObject:
   - component: {fileID: 8204707763457504005}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29209,7 +29018,7 @@ GameObject:
   - component: {fileID: 8204707763483888140}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29241,7 +29050,7 @@ GameObject:
   - component: {fileID: 8204707763567992200}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29273,7 +29082,7 @@ GameObject:
   - component: {fileID: 8204707763578262725}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29305,7 +29114,7 @@ GameObject:
   - component: {fileID: 8204707763664990350}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29337,7 +29146,7 @@ GameObject:
   - component: {fileID: 8204707763769616947}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29369,7 +29178,7 @@ GameObject:
   - component: {fileID: 8204707763818513897}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29401,7 +29210,7 @@ GameObject:
   - component: {fileID: 8204707763876739307}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29497,7 +29306,7 @@ GameObject:
   - component: {fileID: 8204707763984803614}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29529,7 +29338,7 @@ GameObject:
   - component: {fileID: 8204707763990222055}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29561,7 +29370,7 @@ GameObject:
   - component: {fileID: 8204707764010621413}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29593,7 +29402,7 @@ GameObject:
   - component: {fileID: 8204707764049323473}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29625,7 +29434,7 @@ GameObject:
   - component: {fileID: 8204707764063965528}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29689,7 +29498,7 @@ GameObject:
   - component: {fileID: 8204707764417108888}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29721,7 +29530,7 @@ GameObject:
   - component: {fileID: 8204707764475183158}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29753,7 +29562,7 @@ GameObject:
   - component: {fileID: 8204707764515251139}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29785,7 +29594,7 @@ GameObject:
   - component: {fileID: 8204707764587848723}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29849,7 +29658,7 @@ GameObject:
   - component: {fileID: 8204707764600822762}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29881,7 +29690,7 @@ GameObject:
   - component: {fileID: 8204707764658086624}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29913,7 +29722,7 @@ GameObject:
   - component: {fileID: 8204707764664171803}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29945,7 +29754,7 @@ GameObject:
   - component: {fileID: 8204707764677267797}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29977,7 +29786,7 @@ GameObject:
   - component: {fileID: 8204707764704744247}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30009,7 +29818,7 @@ GameObject:
   - component: {fileID: 8204707764798677887}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30041,7 +29850,7 @@ GameObject:
   - component: {fileID: 8204707764801640834}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30073,7 +29882,7 @@ GameObject:
   - component: {fileID: 8204707764855658541}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30105,7 +29914,7 @@ GameObject:
   - component: {fileID: 8204707764914506753}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30137,7 +29946,7 @@ GameObject:
   - component: {fileID: 8204707764938089598}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30169,7 +29978,7 @@ GameObject:
   - component: {fileID: 8204707764949278681}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30201,7 +30010,7 @@ GameObject:
   - component: {fileID: 8204707764950800678}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30233,7 +30042,7 @@ GameObject:
   - component: {fileID: 8204707764969869602}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30265,7 +30074,7 @@ GameObject:
   - component: {fileID: 8204707765203216918}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30297,7 +30106,7 @@ GameObject:
   - component: {fileID: 8204707765328517292}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Pellet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30878,7 +30687,7 @@ Transform:
   m_LocalScale: {x: 68.28015, y: 68.28015, z: 68.28015}
   m_Children: []
   m_Father: {fileID: 543450653219295361}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &8632055958719107220
 Transform:
@@ -31261,22 +31070,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2169044308360330711}
-  m_Layer: 0
-  m_Name: Bone_end
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &8719771546586948532
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2169044308285648604}
   m_Layer: 0
   m_Name: Bone_end
   m_TagString: Untagged
@@ -34154,20 +33947,6 @@ SkinnedMeshRenderer:
     m_Center: {x: 0.00036333827, y: 0.0039549973, z: 0.0000000055879354}
     m_Extent: {x: 0.015887165, y: 0.015887175, z: 0.01588716}
   m_DirtyAABB: 0
---- !u!4 &8776096138687525076
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 522754683281680791}
-  m_LocalRotation: {x: 0.16907571, y: -0.75588036, z: 0.27217132, w: 0.57094747}
-  m_LocalPosition: {x: -4.0762453, y: 5.903862, z: -1.005454}
-  m_LocalScale: {x: 100.00001, y: 100, z: 100}
-  m_Children: []
-  m_Father: {fileID: 543450653219295361}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &8879528566697311849
 Transform:
   m_ObjectHideFlags: 0
@@ -34331,21 +34110,6 @@ Transform:
   m_Children:
   - {fileID: 6583733712325550525}
   m_Father: {fileID: 543450653337539151}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &8879528567140551525
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7036213049043173679}
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 0.00706588, y: 0.86203736, z: 0.00000011582233}
-  m_LocalScale: {x: 42.978157, y: 42.978157, z: 42.978157}
-  m_Children:
-  - {fileID: 6583733712213354505}
-  m_Father: {fileID: 543450653049183227}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &8879528567215233134
